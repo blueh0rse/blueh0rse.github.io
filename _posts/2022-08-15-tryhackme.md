@@ -1,7 +1,7 @@
 ---
-title: TryHackMe
+title: TryHackMe - Cybersecurity platform
 date: 2022-08-12
-categories: [Plateform]
+categories: [Plateforms]
 tags: [tryhackme]
 img_path: /assets
 image:
