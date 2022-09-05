@@ -26,7 +26,7 @@ title: blueh0rse                          # the main title
 tagline: personal cybersecurity blog :)   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  blueh0rse's personal cybersecurity blog
+  blueh0rse personal cybersecurity blog
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'http://blueh0rse.github.io'
@@ -35,17 +35,17 @@ github:
   username: blueh0rse             # change to your github username
 
 twitter:
-  username: blueh0rse            # change to your twitter username
+  username:             # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: blueh0rse
-  email: example@doamin.com             # change to your email address
+  email: blueh0rse@protonmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/blueh0rse       # change to your github homepage
-    - https://twitter.com/username      # change to your twitter homepage
+    # - https://twitter.com/username      # change to your twitter homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
