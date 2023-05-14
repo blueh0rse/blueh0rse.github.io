@@ -15,12 +15,12 @@ Show all the products no matter the category.
 
 Initial request:
 
-````url
+````
 <website>/products?category=Gifts
 ````
 
 With payload:
 
-````url
+````
 <website>/products?category='+OR+1=1--
 ````
