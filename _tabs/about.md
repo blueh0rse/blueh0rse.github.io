@@ -5,17 +5,18 @@ order: 4
 ---
 
 Firstly, thanx for visiting my blog and looking at my work.
-I am a student who wish to start a career in cybersecurity.
 
-I am mainly writing this blog for 3 reasons :
+I am a young person who wish to start a career in cybersecurity.
+
+I am mainly writing this blog for 3 reasons:
 * Share my cybersecurity passion
 * Improve my english writting skills
-* Get a job as a Cybersecurity Engineer
+* Get a job as a Pentester
 
-The next steps I planned are the following :
-1. Finish the Offensive Pentesting path of TryHackMe
-2. Do some challenges on HackTheBox & RootMe
-3. Study, take and pass the eJPT certification
+My current roadmap is:
+- [ ] Do a lot of PortSwigger Academy challenges
+- [ ] Do some HackTheBox machines
+- [ ] Study, take and pass the eJPT certification
 
 # Official links 🔗
 
@@ -27,7 +28,7 @@ The next steps I planned are the following :
 
 ## Cybersecurity
 
-* [@cocaina777](https://tryhackme.com/p/cocaina777) on TryHackMe - cannot change my pseudo :(
+* [@cocaina777](https://tryhackme.com/p/cocaina777) on TryHackMe
 * [@blueh0rse](https://app.hackthebox.com/users/1163741) on HackTheBox 
 * [@blueh0rse](https://www.root-me.org/blueh0rse) on RootMe 
 
@@ -35,7 +36,3 @@ The next steps I planned are the following :
 
 ## TryHackMe
 <script src="https://tryhackme.com/badge/422671"></script>
-* Top 1% - 19253 out of 1.322.000+ users
-* 89 rooms completed
-* Level 9
-* 15 badges
