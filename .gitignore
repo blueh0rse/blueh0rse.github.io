@@ -20,4 +20,4 @@ node_modules
 package-lock.json
 
 # hidden posts
-*PRIVATE.md
+_posts/Drafts
