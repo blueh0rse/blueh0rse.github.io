@@ -1,5 +1,5 @@
 ---
-title: TryHackMe - Machine - Game Zone
+title: TryHackMe - Game Zone
 date: 2022-08-15
 categories: [TryHackMe, Machines]
 tags: [tryhackme, sqli, ssh, privesc, hash, metasploit, cve]
