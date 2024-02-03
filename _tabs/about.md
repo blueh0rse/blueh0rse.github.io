@@ -4,35 +4,60 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Firstly, thanx for visiting my blog and looking at my work.
+Welcome to my personal cybersecurity blog :)
 
-I am a young person who wish to start a career in cybersecurity.
+Here I will publish all my cybersecurity-related work.
+
+I am currently:
+
+- Studying a Master of Cybersecurity in Barcelona
+- Studying for the eJPT certification exam
 
 I am mainly writing this blog for 3 reasons:
-* Share my cybersecurity passion
-* Improve my english writting skills
-* Get a job as a Pentester
 
-My current roadmap is:
-- [ ] Do a lot of PortSwigger Academy challenges
-- [ ] Do some HackTheBox machines
-- [ ] Study, take and pass the eJPT certification
+* Share my cybersecurity journey
+* Improve my english writting skills
+* Get a job as a Junior Pentester
 
 # Official links 🔗
 
-## Social
+Social
 
-* [@blueh0rse](https://blueh0rse.github.io) on GitHub 
-* [@blueh0rse_](https://twitter.com/blueh0rse_) on Twitter
-* [@blueh0rse](https://keybase.io/blueh0rse) on Keybase 
+* GitHub - [@blueh0rse](https://blueh0rse.github.io)  
+* Twitter - [@blueh0rse_](https://twitter.com/blueh0rse_) 
+* Keybase - [@blueh0rse](https://keybase.io/blueh0rse)  
 
 ## Cybersecurity
 
-* [@cocaina777](https://tryhackme.com/p/cocaina777) on TryHackMe
-* [@blueh0rse](https://app.hackthebox.com/users/1163741) on HackTheBox 
-* [@blueh0rse](https://www.root-me.org/blueh0rse) on RootMe 
+* TryHackMe - [@cocaina777](https://tryhackme.com/p/cocaina777) 
+* HackTheBox - [@blueh0rse](https://app.hackthebox.com/users/1163741)  
+* RootMe - [@blueh0rse](https://www.root-me.org/blueh0rse)  
 
-# Ranks 🏆
+# Blog Overview
 
-## TryHackMe
-<script src="https://tryhackme.com/badge/422671"></script>
+````text
+.
+├── HackTheBox
+│   └── Machines
+│       └── Linux
+│           └── Nibbles
+├── PortSwiggerAcademy
+│   └── ServerSide
+│       └── SQLi
+│           ├── Lab #01 - SQLi in WHERE clause
+│           ├── Lab #02 - SQLi Allowing Authentication Bypass
+│           ├── Lab #03 - SQLi Determining number of columns
+│           ├── Lab #04 - Finding column containing text
+│           ├── Lab #05 - Retrieving data from other tables
+│           ├── Lab #06 - Retrieving multiple values in single column
+│           ├── Lab #07 - Querying Orable DB type and version
+│           ├── Lab #08 - Querying MySQL and Microsoft DB type and version
+│           ├── Lab #09 - Listing contents on non-Oracle DB
+│           ├── Lab #10 - Listing contents on Oracle DB
+│           └── Lab #11 - Blind SQLi with conditional responses
+└── TryHackMe
+    └── Machines
+        └── Linux
+            ├── Game Zone
+            └── Hack Park
+````
