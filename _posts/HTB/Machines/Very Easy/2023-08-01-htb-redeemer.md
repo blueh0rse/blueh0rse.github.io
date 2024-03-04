@@ -1,8 +1,8 @@
 ---
 title: HackTheBox - Redeemer 
 date: 2023-08-01
-categories: [HackTheBox, StartingPoint]
-tags: []
+categories: [HackTheBox, Machine]
+tags: [redis]
 ---
 
 # Redeemer

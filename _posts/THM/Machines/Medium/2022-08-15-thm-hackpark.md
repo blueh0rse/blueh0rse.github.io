@@ -1,8 +1,8 @@
 ---
-title: TryHackMe - Hack Park 
+title: TryHackMe - Hack Park
 date: 2022-08-15
 categories: [TryHackMe, Challenge]
-tags: [tryhackme, web]
+tags: []
 img_path: /img/path/
 ---
 
