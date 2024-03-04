@@ -8,12 +8,68 @@
           "categories": ["HackTheBox", "Machines"],
           "tags": ["ftp"]
         },
+        "2022-09-22-htb-meow.md": {
+          "title": "HTB - Meow",
+          "date": "2022-09-22",
+          "categories": ["HackTheBox", "Machines"],
+          "tags": ["telnet"]
+        },
+        "2022-09-26-htb-dancing.md": {
+          "title": "HTB - Dancing",
+          "date": "2022-09-26",
+          "categories": ["HackTheBox", "Machines"],
+          "tags": []
+        },
+        "2023-08-01-htb-explosion.md": {
+          "title": "HTB - Explosion",
+          "date": "2023-08-01",
+          "categories": ["HackTheBox", "Machines"],
+          "tags": ["rdp", "xfreerdp"]
+        },
+        "2023-08-01-htb-mongod.md": {
+          "title": "HTB - Mongod",
+          "date": "2023-08-01",
+          "categories": ["HackTheBox", "Machines"],
+          "tags": ["mongodb"]
+        },
+        "2023-08-01-htb-preignition.md": {
+          "title": "HTB - Preignition",
+          "date": "2023-08-01",
+          "categories": ["HackTheBox", "Machines"],
+          "tags": ["nginx", "gobuster"]
+        },
         "2023-08-01-htb-redeemer.md": {
           "title": "HTB - Redeemer",
           "date": "2023-08-01",
           "categories": ["HackTheBox", "Machines"],
           "tags": ["redis"]
         },
+        "2023-08-17-htb-appointment.md": {
+          "title": "HTB - Redeemer",
+          "date": "2023-08-17",
+          "categories": ["HackTheBox", "Machines"],
+          "tags": ["nmap", "gobuster", "sqli"]
+        },
+        "2023-08-17-htb-synced.md": {
+          "title": "HTB - Synced",
+          "date": "2023-08-17",
+          "categories": ["HackTheBox", "Machines"],
+          "tags": ["rsync"]
+        },
+        "2023-08-18-htb-sequel.md": {
+          "title": "HTB - Redeemer",
+          "date": "2023-08-18",
+          "categories": ["HackTheBox", "Machines"],
+          "tags": []
+        },
+        "2023-08-20-htb-responder.md": {
+          "title": "HTB - Responder",
+          "date": "2023-08-20",
+          "categories": ["HackTheBox", "Machines"],
+          "tags": []
+        }
+      },
+      "Easy": {
         "2022-11-10-htb-nibbles.md": {
           "title": "HTB - Nibbles",
           "date": "2022-10-02",
