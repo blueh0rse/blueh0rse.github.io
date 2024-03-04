@@ -1,5 +1,5 @@
 ---
-title: HackTheBox - Redeemer 
+title: HTB - Redeemer 
 date: 2023-08-01
 categories: [HackTheBox, Machine]
 tags: [redis]
