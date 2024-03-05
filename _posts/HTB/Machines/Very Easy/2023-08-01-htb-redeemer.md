@@ -1,7 +1,7 @@
 ---
 title: HTB - Redeemer 
 date: 2023-08-01
-categories: [HackTheBox, Machine]
+categories: [HackTheBox, Machines]
 tags: [redis]
 ---
 

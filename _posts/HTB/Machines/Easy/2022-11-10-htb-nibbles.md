@@ -1,7 +1,7 @@
 ---
 title: HTB - Nibbles 
 date: 2022-10-02
-categories: [HackTheBox, Machine]
+categories: [HackTheBox, Machines]
 tags: [gobuster, cewl]
 ---
 

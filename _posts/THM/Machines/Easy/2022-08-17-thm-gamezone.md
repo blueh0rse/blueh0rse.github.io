@@ -1,7 +1,7 @@
 ---
 title: THM - Game Zone
 date: 2022-08-15
-categories: [TryHackMe, Machines]
+categories: [TryHackMe, Rooms]
 tags: [tryhackme, sqli, ssh, privesc, hash, metasploit, cve]
 ---
 
