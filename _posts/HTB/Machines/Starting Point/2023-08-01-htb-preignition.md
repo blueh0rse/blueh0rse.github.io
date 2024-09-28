@@ -1,5 +1,5 @@
 ---
-title: 🔵 HTB / Starting Point / Preignition
+title: 🔵 HTB /  Preignition
 date: 2023-08-01
 categories: [HackTheBox, Machines]
 tags: [nginx, gobuster]

@@ -1,5 +1,5 @@
 ---
-title: 🔵 HTB / Starting Point / Redeemer 
+title: 🔵 HTB /  Redeemer 
 date: 2023-08-01
 categories: [HackTheBox, Machines]
 tags: [redis]

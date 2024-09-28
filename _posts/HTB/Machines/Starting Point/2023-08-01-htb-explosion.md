@@ -1,5 +1,5 @@
 ---
-title: 🔵 HTB / Starting Point / Explosion
+title: 🔵 HTB /  Explosion
 date: 2023-08-01
 categories: [HackTheBox, Machines]
 tags: [rdp, xfreerdp]
