@@ -1,5 +1,5 @@
 ---
-title: HTB - Nibbles 
+title: 🟢 HTB / Easy / Nibbles 
 date: 2022-10-02
 categories: [HackTheBox, Machines]
 tags: [gobuster, cewl]

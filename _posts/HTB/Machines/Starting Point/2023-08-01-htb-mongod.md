@@ -1,5 +1,5 @@
 ---
-title: HTB - Mongod
+title: 🔵 HTB / Starting Point / Mongod
 date: 2023-08-01
 categories: [HackTheBox, Machines]
 tags: [mongodb]
