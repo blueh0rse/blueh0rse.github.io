@@ -1,5 +1,5 @@
 ---
-title: 🔵 HTB /  Synced
+title: 🔵 HTB - Synced
 date: 2023-08-17
 categories: [HackTheBox, Machines]
 tags: [rsync]

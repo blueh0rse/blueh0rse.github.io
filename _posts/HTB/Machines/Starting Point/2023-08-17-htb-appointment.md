@@ -1,5 +1,5 @@
 ---
-title: 🔵 HTB /  Appointment
+title: 🔵 HTB - Appointment
 date: 2023-08-17
 categories: [HackTheBox, Machines]
 tags: [nmap, gobuster, sqli]

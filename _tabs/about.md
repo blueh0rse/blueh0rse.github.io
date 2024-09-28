@@ -27,11 +27,11 @@ Feel free to explore my content and reach out if you’d like to connect!
 
 Social
 
-- GitHub - [@blueh0rse](https://blueh0rse.github.io)  
-- Twitter - [@blueh0rse_](https://twitter.com/blueh0rse_) 
+- GitHub - [@blueh0rse](https://blueh0rse.github.io)
+- Twitter - [@blueh0rse\_](https://twitter.com/blueh0rse_)
 
 Cybersecurity
 
-- HackTheBox - [@blueh0rse](https://app.hackthebox.com/users/2095612)  
-- TryHackMe - [@cocaina777](https://tryhackme.com/p/cocaina777) 
-- RootMe - [@blueh0rse](https://www.root-me.org/blueh0rse)  
+- HackTheBox - [@blueh0rse](https://app.hackthebox.com/users/2095612)
+- TryHackMe - [@cocaina777](https://tryhackme.com/p/cocaina777)
+- RootMe - [@blueh0rse](https://www.root-me.org/blueh0rse)
