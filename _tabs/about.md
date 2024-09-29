@@ -1,5 +1,5 @@
 ---
-title: About me
+title: 👤 About me
 icon: fas fa-info-circle
 order: 4
 ---
@@ -8,12 +8,20 @@ Welcome to my personal cybersecurity blog :)
 
 Here I publish all my cybersecurity-related work.
 
-What I'm currently working on:
+What are my current goals:
 
-- [ ] Looking for a job in cybersecurity
-- [ ] Studying for the CBBH certification
-- [x] ~~Studying a Master of Cybersecurity in Barcelona~~
-- [x] ~~Studying for the eJPT certification~~
+- [ ] Get a job in cybersecurity
+- [ ] Earn the CBBH certification
+- [x] ~~Earn a Master of Cybersecurity from UPC~~
+- [x] ~~Obtain the eJPT certification~~
+
+To achieve these goals, my daily activities include:
+
+- Solving algorithmic challenges on [HackerRank](https://hackerrank.com) using Python.
+- Studying the CBBH Bug Bounty Hunter path
+- Applying for cybersecurity jobs
+- Learning the C programming language
+- Improving my Python and cybersecurity skills with the book Black Hat Python
 
 Why I started this blog:
 
@@ -27,11 +35,15 @@ Feel free to explore my content and reach out if you’d like to connect!
 
 Social
 
-- GitHub - [@blueh0rse](https://blueh0rse.github.io)
-- Twitter - [@blueh0rse\_](https://twitter.com/blueh0rse_)
+- [GitHub](https://blueh0rse.github.io)
+- [Twitter](https://twitter.com/blueh0rse_)
 
 Cybersecurity
 
-- HackTheBox - [@blueh0rse](https://app.hackthebox.com/users/2095612)
-- TryHackMe - [@cocaina777](https://tryhackme.com/p/cocaina777)
-- RootMe - [@blueh0rse](https://www.root-me.org/blueh0rse)
+- [HackTheBox](https://app.hackthebox.com/users/2095612)
+- [RootMe](https://www.root-me.org/blueh0rse)
+- [TryHackMe](https://tryhackme.com/p/cocaina777)
+
+Other
+
+- [Hacker Rank](https://www.hackerrank.com/profile/vrai_gamin)
