@@ -29,7 +29,7 @@ Why I started this blog:
 - To improve my English writing skills
 - To land a job as a Junior Pentester
 
-Feel free to explore my content and reach out if you’d like to connect!
+Feel free to explore my content and reach out if you'd like to connect!
 
 ## 🔗 Links
 
