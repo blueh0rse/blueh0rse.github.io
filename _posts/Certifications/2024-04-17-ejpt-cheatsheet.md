@@ -6,7 +6,7 @@ tags: [ejpt, cheatsheet]
 img_path: /assets/img/
 ---
 
-Here is my personal eJPT cheatsheet that I built while following the associatec course and used during the exam.
+Here is my personal eJPT cheatsheet that I built while following the associated course and used during the exam.
 
 ## Information Gathering
 
