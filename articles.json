@@ -1,0 +1,182 @@
+{
+  "HTB": {
+    "Machines": {
+      "Very Easy": {
+        "2022-09-22-htb-fawn.md": {
+          "title": "HTB - Fawn",
+          "date": "2022-09-22",
+          "categories": ["HackTheBox", "Machines"],
+          "tags": ["ftp"]
+        },
+        "2022-09-22-htb-meow.md": {
+          "title": "HTB - Meow",
+          "date": "2022-09-22",
+          "categories": ["HackTheBox", "Machines"],
+          "tags": ["telnet"]
+        },
+        "2022-09-26-htb-dancing.md": {
+          "title": "HTB - Dancing",
+          "date": "2022-09-26",
+          "categories": ["HackTheBox", "Machines"],
+          "tags": []
+        },
+        "2023-08-01-htb-explosion.md": {
+          "title": "HTB - Explosion",
+          "date": "2023-08-01",
+          "categories": ["HackTheBox", "Machines"],
+          "tags": ["rdp", "xfreerdp"]
+        },
+        "2023-08-01-htb-mongod.md": {
+          "title": "HTB - Mongod",
+          "date": "2023-08-01",
+          "categories": ["HackTheBox", "Machines"],
+          "tags": ["mongodb"]
+        },
+        "2023-08-01-htb-preignition.md": {
+          "title": "HTB - Preignition",
+          "date": "2023-08-01",
+          "categories": ["HackTheBox", "Machines"],
+          "tags": ["nginx", "gobuster"]
+        },
+        "2023-08-01-htb-redeemer.md": {
+          "title": "HTB - Redeemer",
+          "date": "2023-08-01",
+          "categories": ["HackTheBox", "Machines"],
+          "tags": ["redis"]
+        },
+        "2023-08-17-htb-appointment.md": {
+          "title": "HTB - Redeemer",
+          "date": "2023-08-17",
+          "categories": ["HackTheBox", "Machines"],
+          "tags": ["nmap", "gobuster", "sqli"]
+        },
+        "2023-08-17-htb-synced.md": {
+          "title": "HTB - Synced",
+          "date": "2023-08-17",
+          "categories": ["HackTheBox", "Machines"],
+          "tags": ["rsync"]
+        },
+        "2023-08-18-htb-sequel.md": {
+          "title": "HTB - Redeemer",
+          "date": "2023-08-18",
+          "categories": ["HackTheBox", "Machines"],
+          "tags": []
+        },
+        "2023-08-20-htb-responder.md": {
+          "title": "HTB - Responder",
+          "date": "2023-08-20",
+          "categories": ["HackTheBox", "Machines"],
+          "tags": []
+        }
+      },
+      "Easy": {
+        "2022-11-10-htb-nibbles.md": {
+          "title": "HTB - Nibbles",
+          "date": "2022-10-02",
+          "categories": ["HackTheBox", "Machines"],
+          "tags": ["gobuster", "cewl"]
+        }
+      }
+    }
+  },
+  "PSA": {
+    "Server Side": {
+      "SQLi": {
+        "2023-03-02-psa-sqli-1.md": {
+          "title": "PSA - SQLi 1 - SQLi in WHERE clause",
+          "date": "2023-03-02",
+          "categories": ["PortSwigger", "SQLi"],
+          "tags": ["web", "sqli"]
+        },
+        "2023-03-02-psa-sqli-2.md": {
+          "title": "PSA - SQLi 2 - SQLi Allowing Authentication Bypass",
+          "date": "2023-03-02",
+          "categories": ["PortSwigger", "SQLi"],
+          "tags": ["web", "sqli"]
+        },
+        "2023-03-02-psa-sqli-3.md": {
+          "title": "PSA - SQLi 3 - UNION attack, determining the number of columns returned by the query",
+          "date": "2023-03-02",
+          "categories": ["PortSwigger", "SQLi"],
+          "tags": ["web", "sqli"]
+        },
+        "2023-03-03-psa-sqli-4.md": {
+          "title": "PSA - SQLi 4 - Finding column containing text",
+          "date": "2023-03-03",
+          "categories": ["PortSwigger", "SQLi"],
+          "tags": ["web", "sqli"]
+        },
+        "2023-03-06-psa-sqli-5.md": {
+          "title": "PSA - SQLi 5 - UNION attack, retrieving data from other tables",
+          "date": "2023-03-06",
+          "categories": ["PortSwigger", "SQLi"],
+          "tags": ["web", "sqli"]
+        },
+        "2023-03-06-psa-sqli-6.md": {
+          "title": "PSA - SQLi 6 - UNION attack, retrieving multiple values in a single column",
+          "date": "2023-03-06",
+          "categories": ["PortSwigger", "SQLi"],
+          "tags": ["web", "sqli"]
+        },
+        "2023-03-15-psa-sqli-7.md": {
+          "title": "PSA - SQLi 7 - UNION attack, querying the database type and version on Oracle",
+          "date": "2023-03-15",
+          "categories": ["PortSwigger", "SQLi"],
+          "tags": ["web", "sqli"]
+        },
+        "2023-03-15-psa-sqli-8.md": {
+          "title": "PSA - SQLi 8 - Querying DB type and version on MySQL and Microsoft",
+          "date": "2023-03-15",
+          "categories": ["PortSwigger", "SQLi"],
+          "tags": ["web", "sqli"]
+        },
+        "2023-05-16-psa-sqli-9.md": {
+          "title": "PSA - SQLi 9 - Listing contents on non-Oracle DB",
+          "date": "2023-05-16",
+          "categories": ["PortSwigger", "SQLi"],
+          "tags": ["web", "sqli"]
+        },
+        "2023-05-17-psa-sqli-10.md": {
+          "title": "PSA - SQLi 10 - Listing contents on Oracle DB",
+          "date": "2023-05-17",
+          "categories": ["PortSwigger", "SQLi"],
+          "tags": ["web", "sqli"]
+        },
+        "2023-05-17-psa-sqli-11.md": {
+          "title": "PSA - SQLi 11 - Blind SQLi with conditional responses",
+          "date": "2023-05-17",
+          "categories": ["PortSwigger", "SQLi"],
+          "tags": ["web", "sqli"]
+        }
+      },
+      "Authentication": {
+        "2023-05-23-psa-auth-1.md": {
+          "title": "PSA - Auth 1 - Username enumeration via different responses",
+          "date": "2023-05-23",
+          "categories": ["PortSwigger", "Authentication"],
+          "tags": ["burp", "web", "auth"]
+        }
+      }
+    }
+  },
+  "THM": {
+    "Machines": {
+      "Easy": {
+        "2022-08-15-thm-gamezone.md": {
+          "title": "THM - Game Zone",
+          "date": "2022-08-15",
+          "categories": ["TryHackMe", "Machines"],
+          "tags": ["sqli", "ssh", "privesc", "msf"]
+        }
+      }, 
+      "Medium": {
+        "2022-08-15-thm-hackpark.md": {
+          "title": "THM - Hack Park",
+          "date": "2022-08-15",
+          "categories": ["TryHackMe", "Machines"],
+          "tags": []
+        }
+      }
+    }
+  }
+}
