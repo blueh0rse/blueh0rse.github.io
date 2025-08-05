@@ -6,44 +6,20 @@ order: 4
 
 Welcome to my personal cybersecurity blog :)
 
-Here I publish all my cybersecurity-related work.
+I’m Léo, a French software engineer based in Barcelona, with a focus on web and API security.
 
-What are my current goals:
+## 🔥 Current focus
 
-- [ ] Get a job in cybersecurity
-- [ ] Earn the CBBH certification
-- [x] ~~Earn a Master of Cybersecurity from UPC~~
-- [x] ~~Obtain the eJPT certification~~
+- AppSec & API Security
+- Vulnerable apps
+- Preparing for future certifications (CAP, CBBH...)
+- Long-term: bug bounty, open-source development
 
-To achieve these goals, my daily activities include:
+## 🎯 Why this blog?
 
-- Solving algorithmic challenges on [HackerRank](https://hackerrank.com) using Python.
-- Studying the CBBH Bug Bounty Hunter path
-- Applying for cybersecurity jobs
-- Learning the C programming language
-- Improving my Python and cybersecurity skills with the book Black Hat Python
-
-Why I started this blog:
-
-- To share my cybersecurity journey
-- To improve my English writing skills
-- To land a job as a Junior Pentester
+- Learn in public
+- Document practical work
+- Contribute to the community
 
 Feel free to explore my content and reach out if you'd like to connect!
 
-## 🔗 Links
-
-Social
-
-- [GitHub](https://blueh0rse.github.io)
-- [Twitter](https://twitter.com/blueh0rse_)
-
-Cybersecurity
-
-- [HackTheBox](https://app.hackthebox.com/users/2095612)
-- [RootMe](https://www.root-me.org/blueh0rse)
-- [TryHackMe](https://tryhackme.com/p/cocaina777)
-
-Other
-
-- [Hacker Rank](https://www.hackerrank.com/profile/vrai_gamin)
